@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.ItemStack;
@@ -24,7 +23,7 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
 
-    public static final PointOfInterestType TNT_POI = registerPOI("tnt_poi", Blocks.ORANGE_WOOL);
+    public static final PointOfInterestType TNT_POI = registerPOI("tnt_poi", ModBlocks.TNT_WORKSTATION);
     public static final VillagerProfession DEMOLITIONIST = registerProfession("demolitionist",
             RegistryKey.of(Registries.POINT_OF_INTEREST_TYPE.getKey(), new Identifier(DemolitionistVillager.MOD_ID, "tnt_poi")));
 
