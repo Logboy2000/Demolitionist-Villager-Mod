@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tntvillager",
+  "version": "${version}",
+  "name": "Demolitionist Villager",
+  "description": "A mod that adds a demolitionist villager type that",
+  "authors": [
+    "Logboy2000",
+    "ChatGPT"
+  ],
+  "contact": {
+    "repo": "https://github.com/logbo/Demolitionist-Villager"
+  },
+  "license": "unlicense",
+  "icon": "assets/tntvillager/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "logboy2000.tntvillager.client.DemolitionistVillagerClient"
+    ],
+    "main": [
+      "logboy2000.tntvillager.DemolitionistVillager"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
