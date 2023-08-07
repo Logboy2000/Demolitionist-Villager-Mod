@@ -10,8 +10,9 @@ public class DemolitionistVillager implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModVillagers.registerVillagers();
+
         ModVillagers.registerTrades();
         ModBlocks.registerModBlocks();
+        ModVillagers.registerVillagers();
     }
 }

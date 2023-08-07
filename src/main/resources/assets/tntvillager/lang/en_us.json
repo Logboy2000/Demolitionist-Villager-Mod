@@ -1,3 +1,4 @@
 {
-  "entity.minecraft.villager.demolitionist": "Demolitionist"
+  "entity.minecraft.villager.demolitionist": "Demolitionist",
+  "block.tntvillager.tnt_workstation": "TNT Table"
 }
