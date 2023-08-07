@@ -20,12 +20,14 @@ import net.minecraft.village.VillagerProfession;
 import net.minecraft.world.poi.PointOfInterestType;
 
 
-
 public class ModVillagers {
+
+
 
     public static final PointOfInterestType TNT_POI = registerPOI("tnt_poi", ModBlocks.TNT_WORKSTATION);
     public static final VillagerProfession DEMOLITIONIST = registerProfession("demolitionist",
             RegistryKey.of(Registries.POINT_OF_INTEREST_TYPE.getKey(), new Identifier(DemolitionistVillager.MOD_ID, "tnt_poi")));
+
 
     public static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
         return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(DemolitionistVillager.MOD_ID, name),

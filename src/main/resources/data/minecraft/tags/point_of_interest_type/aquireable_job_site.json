@@ -1,5 +1,6 @@
 {
+  "replace": false,
   "values": [
-    "tntvillager:tnt_poi"
+    "tntvillger:tnt_poi"
   ]
 }
