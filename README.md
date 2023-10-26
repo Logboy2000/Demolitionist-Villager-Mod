@@ -8,10 +8,10 @@ All issues fixed!
 
 Changelog:
 
-1.20.2 Support (Still supports 1.20.1)
+- 1.20.2 Support (Still supports 1.20.1)
 
-Fixed missing block texture
+- Fixed missing block texture
 
-Fixed missing loot table
+- Fixed missing loot table
 
-Fixed missing recipe
+- Fixed missing recipe
