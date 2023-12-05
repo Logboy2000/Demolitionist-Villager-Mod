@@ -6,7 +6,7 @@ https://modrinth.com/mod/demolitionist-villager
 
 All issues fixed!
 
-Changelog:
+Latest Changelog:
 
 - 1.20.2 Support (Still supports 1.20.1)
 
