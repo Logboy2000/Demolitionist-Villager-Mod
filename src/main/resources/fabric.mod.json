@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "tntvillager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "name": "Demolitionist Villager",
   "description": "A mod that adds a demolitionist villager type that add various explosive trades",
   "authors": [
@@ -24,7 +24,7 @@
   },
   "depends": {
     "fabricloader": ">=0.14.22",
-    "minecraft": "~1.20.1",
+    "minecraft": ">=1.20.1",
     "java": ">=17",
     "fabric-api": "*"
   }
