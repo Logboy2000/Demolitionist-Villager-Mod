@@ -8,10 +8,6 @@ All issues fixed!
 
 Latest Changelog:
 
-- 1.20.2 Support (Still supports 1.20.1)
+- 1.20-1.20.3 Support
 
-- Fixed missing block texture
-
-- Fixed missing loot table
-
-- Fixed missing recipe
+- Zombie Villager Textures
